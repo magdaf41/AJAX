@@ -1,49 +1,23 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta pracownik="viewport" content="width=device-width">
-    <title>Fetch API</title>
-    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Warsztat AJAX – (jQuery) Pobierz dane po kliknięciu przycisku</title>
 </head>
 
 <body>
-    <h1>Odbieranie i wysyłanie danych</h1>
 
-    <button id="get-random-user">Get random user</button>
+    <h1>Warsztat – (jQuery) Pobierz dane po kliknięciu przycisku</h1>
 
-    <hr />
-    <br />
-    <br />
-    <br />
-
-    <form action="#" id="create-user">
-        <fieldset>
-            <label for="first-name">First name: </label>
-            <input type="text" id="first-name" placeholder="eg. Hans">
-            <br />
-            <label for="last-name">Last name: </label>
-            <input type="text" id="last-name" placeholder="eg. Bot">
-        </fieldset>
-        <fieldset>
-            <label for="occupation">Occupation: </label>
-            <input type="text" id="occupation" placeholder="eg. programmer">
-            <br />
-            <label for="company">Company: </label>
-            <input type="text" id="company" placeholder="eg. Akademia 108">
-        </fieldset>
-
-        <button type="submit">Create user</button>
-    </form>
-
-    <ul id="errors"></ul>
-    <p id="msg"></p>
+    <button id="get-data">Pobierz dane</button>
 
 
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script src="js/main.js"></script>
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.js"
+        integrity="sha512-WNLxfP/8cVYL9sj8Jnp6et0BkubLP31jhTG9vhL/F5uEZmg5wEzKoXp1kJslzPQWwPT1eyMiSxlKCgzHLOTOTQ=="
+        crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
 </body>
 
 </html>
