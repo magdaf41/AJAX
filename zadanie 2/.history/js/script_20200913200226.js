@@ -1,0 +1,1 @@
+console.log("Warsztat – Pobierz dane po kliknięciu przycisku")
