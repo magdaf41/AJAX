@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta pracownik="viewport" content="width=device-width">
+    <title>Fetch API</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <h1>Odbieranie i wysyłanie danych</h1>
+
+    <button id="get-random-user">Get random user</button>
+
+    <hr />
+    <br />
+    <br />
+    <br />
+
+    <form action="#" id="create-user">
+        <fieldset>
+            <label for="first-name">First name: </label>
+            <input type="text" id="first-name" placeholder="eg. Hans">
+            <br />
+            <label for="last-name">Last name: </label>
+            <input type="text" id="last-name" placeholder="eg. Bot">
+        </fieldset>
+        <fieldset>
+            <label for="occupation">Occupation: </label>
+            <input type="text" id="occupation" placeholder="eg. programmer">
+            <br />
+            <label for="company">Company: </label>
+            <input type="text" id="company" placeholder="eg. Akademia 108">
+        </fieldset>
+
+        <button type="submit">Create user</button>
+    </form>
+
+    <ul id="errors"></ul>
+    <p id="msg"></p>
+
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
